@@ -56,6 +56,14 @@
 
     background-color: #131721;
     border-radius: 15px;
+
+    transition: ease-in-out 0.3s;
+}
+
+.cards:hover{
+    transform: translateY(-10px);
+    background-color: #290837;
+    cursor: pointer;
 }
 
 .cards h1{
@@ -68,7 +76,7 @@
 }
 
 .Btn-acesso{
-    width: 40%;
+    width: 90%;
     height: auto;
     padding: 5%;
     background-color: blueviolet;

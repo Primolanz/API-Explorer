@@ -11,7 +11,7 @@ function Home(){
                 <div className="cards">
                     <img src="https://img.icons8.com/?size=100&id=52585&format=png&color=000000" alt="meteorologia" />
                     <h1>Meteorologia</h1>
-                    <p>Consuma API´s de clima e veja temperatura, vento e humidade.</p>
+                    <p>Consuma API´s de clima e veja temperatura, vento e umidade.</p>
                     <button className="Btn-acesso">Acessar API</button>
                 </div>
 
