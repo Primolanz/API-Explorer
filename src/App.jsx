@@ -1,8 +1,15 @@
-import Home from "./assets/pages/Home"
+import Home from "./pages/Home";
+import Clima from "./pages/Clima";
+
 function App(){
+  const rotas = {
+    "/": <Home />,
+    "/clima": <Clima />,
+  };
+
   return(
     <div>
-      <Home/>
+      {rotas[window.location.pathname] || <Home />}
     </div>
   )
 }
