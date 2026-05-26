@@ -112,12 +112,13 @@
 
 .container-clima{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #0B0F1A;
     display: flex;
     align-items: center;
     padding: 0% 3%;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 header{
@@ -199,7 +200,7 @@ input:focus{
 .pesquisa button{
     width: auto;
     height: 100%;
-    padding: 5px 10px;
+    padding: 3%;
     background-color: blueviolet;
     color: white;
     border: none;
@@ -228,4 +229,132 @@ input:focus{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.resultados-musicas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.card-musica{
+    width: 100%;
+    max-width: 320px;
+    min-height: 360px;
+    padding: 20px;
+    border: 1px solid blueviolet;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: #131721;
+    border-radius: 15px;
+}
+
+.card-musica img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-musica h2{
+    width: 100%;
+    color: blueviolet;
+    font-size: 150%;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+.card-musica p{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.card-musica audio{
+    width: 100%;
+    margin-top: auto;
+}
+
+.card-ia{
+    max-width: 800px;
+    align-items: flex-start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.card-ia h2{
+    color: blueviolet;
+    font-weight: 400;
+    margin: 0 0 15px;
+
+}
+
+.card-ia p{
+    width: 100%;
+    margin: 0;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+}
+
+.card-geo h2{
+    color: blueviolet;
+    font-weight: 400;
+}
+
+.card-geo a{
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: ease-in-out 0.3s;
+}
+
+.card-geo a:hover{
+    background-color: rgba(137, 43, 226, 0.682);
+}
+
+.card-pokemon{
+    max-width: 460px;
+    gap: 8px;
+}
+
+.card-pokemon img{
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+}
+
+.card-pokemon h2{
+    color: blueviolet;
+    font-size: 180%;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.card-pokemon p{
+    width: 100%;
+    margin: 4px 0;
+    text-align: center;
+    text-transform: capitalize;
+    overflow-wrap: anywhere;
 }

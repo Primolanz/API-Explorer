@@ -5,31 +5,31 @@ function Home(){
         {
             titulo: "Meteorologia",
             descricao: "Consuma API´s de clima e veja temperatura, vento e umidade.",
-            imagem: "https://img.icons8.com/?size=100&id=52585&format=png&color=000000",
+            imagem: "https://img.icons8.com/?size=100&id=9249&format=png&color=7950F2",
             rota: "/clima",
         },
         {
             titulo: "Músicas",
             descricao: "Pesquise artistas, músicas e álbuns usando API´s musicais.",
-            imagem: "https://img.icons8.com/?size=100&id=48186&format=png&color=000000",
+            imagem: "https://img.icons8.com/?size=100&id=XwRiANhEpSjF&format=png&color=7950F2",
             rota: "/musica",
         },
         {
             titulo: "Geolocalização",
             descricao: "Utilize localização do navegador em API´s de mapas.",
-            imagem: "https://img.icons8.com/?size=100&id=44008&format=png&color=000000",
+            imagem: "https://img.icons8.com/?size=100&id=YyEbAVyRYrMX&format=png&color=7950F2",
             rota: "/geolocalizacao",
         },
         {
-            titulo: "Marvel",
-            descricao: "Busque heróis da Marvel e visualize seus detalhes",
-            imagem: "https://img.icons8.com/?size=100&id=bPDnjFfpBByo&format=png&color=000000",
-            rota: "/marvel",
+            titulo: "Pokemon",
+            descricao: "Busque pokemons e visualize tipos, habilidades e detalhes.",
+            imagem: "https://img.icons8.com/?size=100&id=62087&format=png&color=7950F2",
+            rota: "/pokemon",
         },
         {
             titulo: "Inteligência Artificial",
             descricao: "Faça perguntas para uma IA e receba respostas automáticas.",
-            imagem: "https://img.icons8.com/?size=100&id=M1bt3ZHCANRW&format=png&color=000000",
+            imagem: "https://img.icons8.com/?size=100&id=IuR8B5VlsFxh&format=png&color=7950F2",
             rota: "/ia",
         }
 
